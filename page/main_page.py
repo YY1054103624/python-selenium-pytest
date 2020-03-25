@@ -9,5 +9,5 @@ class MainPage(BasePage):
     login_page_locator = (By.LINK_TEXT, "登录")
 
     def to_login_page(self):
-        self.find_element(self.login_page_locator)
+        self.find_element_and_click(self.login_page_locator)
         return LoginPage(self.driver)
