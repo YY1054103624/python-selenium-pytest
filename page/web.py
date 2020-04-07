@@ -6,6 +6,7 @@ class Web:
     def start(self):
         self.driver = webdriver.Chrome()
         self.driver.get("http://www.10jqka.com.cn/")
+        self.driver.maximize_window()
         self.driver.implicitly_wait(6)
         return MainPage(self.driver)
 

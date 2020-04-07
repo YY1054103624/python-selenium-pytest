@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>login.html</h1>
-    <p>Report generated on 25-Mar-2020 at 15:20:04 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 07-Apr-2020 at 15:12:27 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -262,7 +262,7 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.5</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 13.39 seconds. </p>
+    <p>2 tests ran in 12.75 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -278,16 +278,16 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">test_case/test_login.py::TestDemo::test_login[王富强-1234-记住登录状态1]</td>
-          <td class="col-duration">0.63</td>
+          <td class="col-duration">0.70</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test_case.test_login.TestDemo object at 0x04720A10&gt;, username = &#x27;王富强&#x27;<br/>password = &#x27;1234&#x27;, expected = &#x27;记住登录状态1&#x27;<br/><br/>    @pytest.mark.parametrize(&quot;username,password,expected&quot;, handle_csv_data(sys.path[0] + &quot;\\test_data\\login_data.csv&quot;))<br/>    def test_login(self, username, password, expected):<br/>        self.login.login(username, password)<br/>&gt;       assert self.login.login_fail_message() == expected, &quot;失败&quot;<br/><span class="error">E       AssertionError: 失败</span><br/><span class="error">E       assert &#x27;记住登录状态&#x27; == &#x27;记住登录状态1&#x27;</span><br/><span class="error">E         - 记住登录状态1</span><br/><span class="error">E         ?       -</span><br/><span class="error">E         + 记住登录状态</span><br/><br/>test_case\test_login.py:15: AssertionError<br/></div></td></tr></tbody>
+            <div class="log">self = &lt;test_case.test_login.TestDemo object at 0x03F668B0&gt;<br/>username = &#x27;王富强&#x27;, password = &#x27;1234&#x27;, expected = &#x27;记住登录状态1&#x27;<br/><br/>    @pytest.mark.parametrize(&quot;username,password,expected&quot;, handle_csv_data(sys.path[0] + &quot;\\test_data\\login_data.csv&quot;))<br/>    def test_login(self, username, password, expected):<br/>        self.login.login(username, password)<br/>&gt;       assert self.login.login_fail_message() == expected, &quot;失败&quot;<br/><span class="error">E       AssertionError: 失败</span><br/><span class="error">E       assert &#x27;记住登录状态&#x27; == &#x27;记住登录状态1&#x27;</span><br/><span class="error">E         - 记住登录状态1</span><br/><span class="error">E         ?       -</span><br/><span class="error">E         + 记住登录状态</span><br/><br/>test_case\test_login.py:15: AssertionError<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_case/test_login.py::TestDemo::test_login[杨勇-1234-记住登录状态]</td>
-          <td class="col-duration">0.76</td>
+          <td class="col-duration">0.97</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
