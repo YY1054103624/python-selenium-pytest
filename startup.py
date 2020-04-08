@@ -1,7 +1,6 @@
 import sys
 import os
 
-
 current_path = sys.path[0]
 os.popen("cd " + current_path)
 os.popen("venv\\Scripts\\activate.bat")
